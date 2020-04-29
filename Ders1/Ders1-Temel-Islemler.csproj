@@ -46,14 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ders1-DortIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ders1-DortIslem.Designer.cs">
+      <DependentUpon>Ders1-DortIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ders1Ornek2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ders1Ornek2.Designer.cs">
+      <DependentUpon>Ders1Ornek2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KullaniciBilgileri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ders1-DortIslem.resx">
+      <DependentUpon>Ders1-DortIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ders1Ornek2.resx">
+      <DependentUpon>Ders1Ornek2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

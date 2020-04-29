@@ -16,7 +16,7 @@ namespace Ders1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Ders1_DortIslem());
         }
     }
 }
